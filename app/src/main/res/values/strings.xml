@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">BizitaTech Assignment</string>
+
+    <string name="please_check_your_internet_connection">Please check your internet connection!</string>
+    <string name="no_internet_button_text">Reload Again</string>
+
+    <string name="title_toolbar">Title</string>
+    <string name="server_error">No response from server, please try again later.</string>
+    <string name="no_employee">No employees found, please contact HR</string>
+
+    <string name="text_id">Id</string>
+    <string name="text_name">Name</string>
+    <string name="text_employee_code">Employee Code</string>
+    <string name="text_team">Team</string>
+    <string name="text_team_id">Team Id</string>
+    <string name="text_address">Address</string>
+    <string name="text_description">Description</string>
+    <string name="text_contact_number">Contact Number</string>
+
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".utils.NoInternetConnection"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/no_internet_connection"
+        android:layout_marginTop="@dimen/size_32dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/DarkTextColor"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/size_16dp"
+        android:text="@string/please_check_your_internet_connection"
+        android:id="@+id/textView5" />
+
+    <Button
+        android:id="@+id/btn_network_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_internet_button_text"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/size_16dp"
+        android:padding="@dimen/size_16dp"
+        android:background="@drawable/button_background" />
+
+</LinearLayout>
